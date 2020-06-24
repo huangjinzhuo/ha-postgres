@@ -17,4 +17,3 @@
 # (or Amazon S3) and has built-in metrics and connection pooling
 pgo create cluster hacluster --replica-count=1 --metrics \
 --pgbackrest-storage-type="local,s3" --pgbouncer --pgbadger
-
